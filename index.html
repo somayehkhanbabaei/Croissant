@@ -3,21 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <title>Homepage</title>
   </head>
-  <body>
-    <div class="container">
+  <body class="bg-light">
+    <div class="container text-center mt-5">
       <h1>🥐 Croissant lovers</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe,
         molestias! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
         Atque, tempore.
       </p>
-      <div class="row">
-        <ul>
-          <li><a href="index.html">Homepage</a></li>
-          <li><a href="photo.html">Photo</a></li>
-          <li><a href="contact.html">Contact</a></li>
+      <div>
+        <ul class="row list-unstyled">
+          <li class="col-4">
+            <a
+              href="index.html"
+              class="nav-link bg-secondary text-white p-2 rounded"
+              >Homepage</a
+            >
+          </li>
+          <li class="col-4">
+            <a
+              href="photo.html"
+              class="nav-link bg-secondary text-white p-2 rounded"
+              >Photo</a
+            >
+          </li>
+          <li class="col-4">
+            <a
+              href="contact.html"
+              class="nav-link bg-secondary text-white p-2 rounded"
+              >Contact</a
+            >
+          </li>
         </ul>
       </div>
     </div>
